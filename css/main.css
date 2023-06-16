@@ -1,8 +1,13 @@
 
+#home h1{
+    font-size: 32px;
+    padding-top: 12px;
+}
+
 .menu{
-    height: 100px;
-    width: 60px;
-    margin-top: 70px 
+    height: 80px;
+    width: 80px;
+    padding: 20px;
 }
 
 nav {
@@ -11,6 +16,8 @@ nav {
     align-items: center;
     padding-left: 330px;
     padding-right: 330px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 div#home {
@@ -22,16 +29,16 @@ div#home {
 
 #home h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 36px;
+    font-size: 42px;
     text-align: center;
     color: white;
     padding-top: 60px;
-
 }
 
 #home p {
     padding-top: 60px;
-    font-size: 12px;
+    font-size: 18px;
+    font-weight: lighter;
     color: white;
     text-align: center;
 }
@@ -44,11 +51,11 @@ div#home {
 }
 
 .icons {
-    height: 90px;
-    width: 90px;
-    margin-top: 70px;
+    height: 80px;
+    width: 80px;
+    margin-top: 80px;
     margin-bottom: 0;
-    padding-left: 0;
+    padding: 14px;
 }
 
 #features h3 {
@@ -63,4 +70,88 @@ div#home {
     font-size: 18px;
     text-align: center;
     padding-top: 10px;
+    margin-bottom: 80px;
 }
+
+div#about {
+    width: 100%;
+    background-image: url("../images/bg_nuage.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#about h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    color: white;
+    padding-top: 60px;
+}
+
+#about h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: white;
+    padding-top: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    font-weight: lighter;
+    color: white;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.about-block {
+    background-color:rgba(0, 208, 255, 0.422);
+}
+
+.about-stat {
+    width: 200px;
+    height: 160px;
+    text-align: center;
+}
+
+#blog h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    padding-top: 60px;
+}
+
+#blog p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+div#history {
+    width: 100%;
+    background-image: url("../images/bg_appareil_photo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#history h7 {
+    font-size: 24px;
+    font-weight: lighter;
+    color: white;
+}
+
+#history p {
+    font-size: 16px;
+    font-weight: lighter;
+    color: white;
+    padding-top: 40px;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+#history h8 {
+    font-size: 24px;
+    font-weight: lighter;
+    color: white;
+    padding-top: 20px;
+}
+
+
+
